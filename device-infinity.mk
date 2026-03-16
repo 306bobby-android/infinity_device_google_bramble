@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, device/google/redbull/device-lineage.mk)
+$(call inherit-product, device/google/redbull/device-infinity.mk)
 
 # CHRE
 $(call soong_config_set,chre,chre_daemon_dsp_library,//vendor/google/bramble:libadsprpc)
